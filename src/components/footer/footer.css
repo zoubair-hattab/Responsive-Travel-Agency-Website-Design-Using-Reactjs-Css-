@@ -1,5 +1,6 @@
-.footer {
+footer {
   background: #333;
+  padding: 1rem 0;
 }
 
 .footer .box-container {
@@ -39,7 +40,7 @@
 
 .credit {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem;
   font-size: 2rem;
   font-weight: normal;
   color: #fff;
