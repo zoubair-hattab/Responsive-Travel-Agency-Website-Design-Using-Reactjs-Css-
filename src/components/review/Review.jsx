@@ -5,6 +5,10 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import { FaStar } from 'react-icons/fa';
 import pic1 from '../../assets/images/pic1.png';
+import pic2 from '../../assets/images/pic2.png';
+import pic3 from '../../assets/images/pic3.png';
+import pic4 from '../../assets/images/pic4.png';
+
 const Review = () => {
   return (
     <section className="review" id="review">
@@ -58,7 +62,39 @@ const Review = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="box">
-          <img src={pic1} alt="" />
+          <img src={pic2} alt="" />
+          <h3>john deo</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            iusto in voluptate explicabo corrupti temporibus molestias officiis,
+            iste hic itaque fugiat minus numquam ipsam corporis
+          </p>
+          <div className="stars">
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="box">
+          <img src={pic3} alt="" />
+          <h3>john deo</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            iusto in voluptate explicabo corrupti temporibus molestias officiis,
+            iste hic itaque fugiat minus numquam ipsam corporis
+          </p>
+          <div className="stars">
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+            <FaStar className="star" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="box">
+          <img src={pic4} alt="" />
           <h3>john deo</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -90,7 +126,7 @@ const Review = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide className="box">
-          <img src={pic1} alt="" />
+          <img src={pic3} alt="" />
           <h3>john deo</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
